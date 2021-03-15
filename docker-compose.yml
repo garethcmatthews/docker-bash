@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   bash:
-    build: ./docker/setup/bash
+    build: ./build/docker_setup/bash
     container_name: ${COMPOSE_PROJECT_NAME}-bash
     volumes:
       - ./src:/home
